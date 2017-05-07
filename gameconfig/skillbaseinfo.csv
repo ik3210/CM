@@ -1,0 +1,2 @@
+id(0),Distance(200),MoveToFloor(),FollowActor(false),HasTarget(true),ActInfoId(1),IsAgain(false),MontagePath(),BeforeTime(0.1),AfterTime(0.1),SpeedFactor(1.0)
+1,100,TRUE,TRUE,TRUE,1,TRUE,mtg_attack,0.1,1,3

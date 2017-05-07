@@ -1,0 +1,2534 @@
+[Sun May  7 18:53:45 2017] ????  
+[Sun May  7 18:54:59 2017] lua VM shutdown  
+[Sun May  7 18:55:12 2017] ????  
+[Sun May  7 18:55:12 2017] stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:13: in function 'q_'
+	.../CatchMe/LuaSource/controller\cmplayercontroller.lua:47: in function '?'
+	.../CatchMe/LuaSource/controller\cmplayercontroller.lua:12: in function 'HandleInput'
+	...jects/4.14.3/CatchMe/LuaSource/gameplay\inputmgr.lua:29: in function 'Update1'
+	...jects/4.14.3/CatchMe/LuaSource/gameplay\inputmgr.lua:42: in function 'Update'
+	...chMe/LuaSource/controller\cmplayercontrollerbase.lua:29: in function <...chMe/LuaSource/controller\cmplayercontrollerbase.lua:28>
+	(tail call): ?  
+[Sun May  7 18:55:17 2017] ????  
+[Sun May  7 18:55:17 2017] stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:13: in function 'q_'
+	.../CatchMe/LuaSource/controller\cmplayercontroller.lua:47: in function '?'
+	.../CatchMe/LuaSource/controller\cmplayercontroller.lua:12: in function 'HandleInput'
+	...jects/4.14.3/CatchMe/LuaSource/gameplay\inputmgr.lua:29: in function 'Update1'
+	...jects/4.14.3/CatchMe/LuaSource/gameplay\inputmgr.lua:42: in function 'Update'
+	...chMe/LuaSource/controller\cmplayercontrollerbase.lua:29: in function <...chMe/LuaSource/controller\cmplayercontrollerbase.lua:28>
+	(tail call): ?  
+[Sun May  7 18:55:23 2017] ????  
+[Sun May  7 18:55:23 2017] stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:13: in function 'q_'
+	.../CatchMe/LuaSource/controller\cmplayercontroller.lua:47: in function '?'
+	.../CatchMe/LuaSource/controller\cmplayercontroller.lua:12: in function 'HandleInput'
+	...jects/4.14.3/CatchMe/LuaSource/gameplay\inputmgr.lua:29: in function 'Update1'
+	...jects/4.14.3/CatchMe/LuaSource/gameplay\inputmgr.lua:42: in function 'Update'
+	...chMe/LuaSource/controller\cmplayercontrollerbase.lua:29: in function <...chMe/LuaSource/controller\cmplayercontrollerbase.lua:28>
+	(tail call): ?  
+[Sun May  7 18:55:25 2017] ????  
+[Sun May  7 18:55:25 2017] stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:13: in function 'q_'
+	.../CatchMe/LuaSource/controller\cmplayercontroller.lua:47: in function '?'
+	.../CatchMe/LuaSource/controller\cmplayercontroller.lua:12: in function 'HandleInput'
+	...jects/4.14.3/CatchMe/LuaSource/gameplay\inputmgr.lua:29: in function 'Update1'
+	...jects/4.14.3/CatchMe/LuaSource/gameplay\inputmgr.lua:42: in function 'Update'
+	...chMe/LuaSource/controller\cmplayercontrollerbase.lua:29: in function <...chMe/LuaSource/controller\cmplayercontrollerbase.lua:28>
+	(tail call): ?  
+[Sun May  7 18:56:11 2017] lua VM shutdown  
+[Sun May  7 18:56:28 2017] ????  
+[Sun May  7 18:56:28 2017] stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:13: in function 'q_'
+	.../CatchMe/LuaSource/controller\cmplayercontroller.lua:47: in function '?'
+	.../CatchMe/LuaSource/controller\cmplayercontroller.lua:12: in function 'HandleInput'
+	...jects/4.14.3/CatchMe/LuaSource/gameplay\inputmgr.lua:29: in function 'Update1'
+	...jects/4.14.3/CatchMe/LuaSource/gameplay\inputmgr.lua:42: in function 'Update'
+	...chMe/LuaSource/controller\cmplayercontrollerbase.lua:29: in function <...chMe/LuaSource/controller\cmplayercontrollerbase.lua:28>
+	(tail call): ?  
+[Sun May  7 18:56:28 2017] 
+[Sun May  7 18:56:28 2017] stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:13: in function 'q_'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:191: in function 'TapFloor'
+	.../CatchMe/LuaSource/controller\cmplayercontroller.lua:85: in function <.../CatchMe/LuaSource/controller\cmplayercontroller.lua:83>
+	(tail call): ?  
+[Sun May  7 18:56:41 2017] 
+[Sun May  7 18:56:41 2017] stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:13: in function 'q_'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:191: in function 'TapFloor'
+	[string "--[[controller.cmplayercontroller]] local C..."]:84: in function <[string "--[[controller.cmplayercontroller]] local C..."]:82>
+	(tail call): ?  
+[Sun May  7 18:56:45 2017] 
+[Sun May  7 18:56:45 2017] stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:13: in function 'q_'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:191: in function 'TapFloor'
+	[string "--[[controller.cmplayercontroller]] local C..."]:84: in function <[string "--[[controller.cmplayercontroller]] local C..."]:82>
+	(tail call): ?  
+[Sun May  7 18:56:48 2017] 
+[Sun May  7 18:56:48 2017] stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:13: in function 'q_'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:191: in function 'TapFloor'
+	[string "--[[controller.cmplayercontroller]] local C..."]:84: in function <[string "--[[controller.cmplayercontroller]] local C..."]:82>
+	(tail call): ?  
+[Sun May  7 18:56:52 2017] 
+[Sun May  7 18:56:52 2017] stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:13: in function 'q_'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:191: in function 'TapFloor'
+	[string "--[[controller.cmplayercontroller]] local C..."]:84: in function <[string "--[[controller.cmplayercontroller]] local C..."]:82>
+	(tail call): ?  
+[Sun May  7 18:56:56 2017] 
+[Sun May  7 18:56:56 2017] stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:13: in function 'q_'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:191: in function 'TapFloor'
+	[string "--[[controller.cmplayercontroller]] local C..."]:84: in function <[string "--[[controller.cmplayercontroller]] local C..."]:82>
+	(tail call): ?  
+[Sun May  7 18:56:58 2017] 
+[Sun May  7 18:56:58 2017] stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:13: in function 'q_'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:191: in function 'TapFloor'
+	[string "--[[controller.cmplayercontroller]] local C..."]:84: in function <[string "--[[controller.cmplayercontroller]] local C..."]:82>
+	(tail call): ?  
+[Sun May  7 18:56:58 2017] 
+[Sun May  7 18:56:58 2017] stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:13: in function 'q_'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:191: in function 'TapFloor'
+	[string "--[[controller.cmplayercontroller]] local C..."]:84: in function <[string "--[[controller.cmplayercontroller]] local C..."]:82>
+	(tail call): ?  
+[Sun May  7 18:57:05 2017] lua VM shutdown  
+[Sun May  7 18:59:48 2017] lua VM shutdown  
+[Sun May  7 19:10:56 2017] lua VM shutdown  
+[Sun May  7 19:17:17 2017] lua VM shutdown  
+[Sun May  7 21:06:54 2017] lua VM shutdown  
+[Sun May  7 23:36:45 2017] lua VM shutdown  
+[Sun May  7 23:36:50 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:50 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:50 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:50 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:50 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:50 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:50 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:50 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:50 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:50 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:50 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:50 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:50 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:50 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:50 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:50 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:50 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:50 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:50 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:51 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:51 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:51 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:51 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:51 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:51 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:51 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:51 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: attempt to index field 'self' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:106: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:36:51 2017] lua VM shutdown  
+[Sun May  7 23:37:29 2017] lua VM shutdown  
+[Sun May  7 23:51:12 2017] lua VM shutdown  
+[Sun May  7 23:51:16 2017] lua VM shutdown  
+[Sun May  7 23:51:34 2017] lua VM shutdown  
+[Sun May  7 23:51:51 2017] lua VM shutdown  
+[Sun May  7 23:51:59 2017] lua VM shutdown  
+[Sun May  7 23:57:39 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:39 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:39 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:39 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:39 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:39 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:39 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:39 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:39 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:39 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:39 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:39 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:39 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:39 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:39 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:39 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:39 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:39 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:39 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:39 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:39 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:39 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:39 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:40 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:40 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:40 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:40 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:40 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:40 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:40 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:40 2017] ...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: attempt to index field 'm_AllSkillInfoMap' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:40>
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:131: in function 'CalDamage'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:105: in function 'StartActSkill'
+	...4.3/CatchMe/LuaSource/character\catchmecharacter.lua:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Sun May  7 23:57:40 2017] lua VM shutdown  
+[Mon May  8 00:00:55 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:55 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:56 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:57 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:57 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:57 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:57 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:57 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:57 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:57 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:57 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:57 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:57 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:57 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:57 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:57 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:57 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:57 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:57 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:57 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:57 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:57 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:57 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:57 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:57 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:57 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:58 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:59 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:59 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:59 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:59 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:59 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:59 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:59 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:59 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:59 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:59 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:59 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:59 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:59 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:59 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:59 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:59 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:59 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:106: attempt to call method 'GetAmount' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'GetAmount'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:106: in function 'StartActSkill'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:97: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:00:59 2017] lua VM shutdown  
+[Mon May  8 00:03:32 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:32 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:32 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:32 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:32 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:32 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:32 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:32 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:32 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:32 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:32 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:32 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:32 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:32 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:32 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:32 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:33 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:33 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:33 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:33 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:33 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:33 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:33 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:33 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:33 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:33 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:33 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:33 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:33 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:33 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:33 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:33 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:33 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:33 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:33 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:33 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:33 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:33 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:33 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:33 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:33 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:33 2017] [string "--[[character.catchmecharacter]] local CMCh..."]:292: attempt to call method 'MaxHP' (a nil value)
+stack traceback:
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:41: in function 'MaxHP'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:292: in function 'OnDamage'
+	[string "--[[character.catchmecharacter]] local CMCh..."]:136: in function 'callBack'
+	...ue4projects/4.14.3/CatchMe/LuaSource/globalevent.lua:22: in function 'callback'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/timermgr.lua:46: in function 'Tick'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:29: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:28>
+	[C]: in function 'xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/logutil.lua:47: in function 'Xpcall'
+	G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:31: in function <G:/ue4projects/4.14.3/CatchMe/LuaSource/main.lua:27>
+  
+[Mon May  8 00:03:34 2017] lua VM shutdown  
+[Mon May  8 00:04:25 2017] lua VM shutdown  
+[Mon May  8 00:05:55 2017] lua VM shutdown  
+[Mon May  8 00:06:44 2017] lua VM shutdown  
