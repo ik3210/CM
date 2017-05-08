@@ -19,6 +19,11 @@ function CMCharacterBase:GetMontage(path)
 	return skillObjects[path]
 end
 
+function CMCharacterBase:SkillFsm(name)
+    local fsmins =  require ("gameplay.fsm."..name):NewIns(self, self.m_CurrentSkillInfo, self.m_AllSkillInfoMap[self.m_CurrentSkillInfo.id].Level, self.m_TargetActor)
+	self.m_SkillFsm = fsmins
+end
+
 function CMCharacterBase:BeginPlay()
 	if self.Role == 1 then
 		G_SimulateProxy.Character[self] = true

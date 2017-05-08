@@ -72,23 +72,101 @@ function CatchMeCharacter:BeginPlay()
 end
 
 function CatchMeCharacter:Tick(delta)
-	self:UpdateSkillState(delta)
+	self:UpdateSkillState()
+end
+-- ****** Before Skill****************
+function CatchMeCharacter:CanAckSkill(SkillId)
+		
+end
+
+function CatchMeCharacter:StartBeforeSkill()
+	if self.m_SkillState == ESkillState.Idle then
+		self.m_SkillState = ESkillState.Before
+		self.m_AttackingTarget = self.m_TargetActor
+		self.m_BeforeSkillTimerHandle = self:Timer(self.EndBeforeSkill, self):Time(self.m_CurrentSkillInfo.BeforeTime):Num(1)
+		self.m_ActtingSkillInfo = self.m_CurrentSkillInfo
+	end
+end
+
+function CatchMeCharacter:StopBeforeSkill()
+	self.m_BeforeSkillTimerHandle:Destroy()
+end
+
+function CatchMeCharacter:EndBeforeSkill()
+	if self.m_AttackingTarget then
+		self:StartActSkill()
+	else
+		self.m_SkillState = ESkillState.Idle
+	end
+end
+-- **********Act Skill***********************************
+function CatchMeCharacter:StartActSkill()
+	self.m_ActtingSkillDamage = self:CalDamage()
+	self.m_SkillState = ESkillState.Acting
+	self:M_PlaySkillMontage(self.m_ActtingSkillInfo.id)
+end
+
+function CatchMeCharacter:SkillCost()
+	
+end
+
+function CatchMeCharacter:M_PlaySkillMontage_Imp(SkillId)
+	local cfg = Cfg("skillbaseinfo")[SkillId]
+	local MontagePath = cfg.MontagePath
+	local SpeedFactor = cfg.SpeedFactor
+	local Anim = self:GetMontage(MontagePath)
+	local AnimTime = self.Mesh:GetAnimInstance():Montage_Play(Anim, SpeedFactor)
+	if self:IsAuth() then
+		self.m_ActSkillTimerHandle = self:Timer(self.EndActSkill, self):Time(AnimTime/SpeedFactor):Num(1)
+	end
+end
+
+function CatchMeCharacter:StopActSkill()
+end
+
+function CatchMeCharacter:CalDamage()
+	local SkillId = self.m_ActtingSkillInfo.id
+	local SkillLevel = self.m_AllSkillInfoMap[SkillId].Level
+	local cfg = Cfg("skilllevelinfo")[SkillId*1000+SkillLevel]
+	local DamageAmout = cfg.AttackPower + self:GetBaseAttackPower()*cfg.AttackPowerFactor
+	return Damage:NewIns(DamageAmout, self)
+end
+
+function CatchMeCharacter:EndActSkill()
+	self.m_AttackingTarget:OnDamage(self.m_ActtingSkillDamage)
+	self:StartAfterSkill()
+	if not self.m_CurrentSkillInfo.IsAgain then
+		-- self.m_TargetActor
+	end
+end
+-- ******************************************************
+
+function CatchMeCharacter:StartAfterSkill( )
+	self.m_SkillState = ESkillState.After
+	self:Timer(self.EndAfterSkill, self):Time(self.m_CurrentSkillInfo.AfterTime):Num(1)
+end
+function CatchMeCharacter:StopAfterSkill( )
+	
+end
+function CatchMeCharacter:EndAfterSkill( )
+	self.m_SkillState = ESkillState.Idle
+	if not self.m_CurrentSkillInfo.IsAgain then
+		self:SetCurrentSkill(self.m_BaseSkillId)
+	end
 end
 
 function CatchMeCharacter:ActTargetSkill()
 	if self.m_TargetActor then
 		A_("AT ", self.m_TargetActor:GetName())
-		self:SkillFsm(self.m_CurrentSkillInfo.Fsm)
+		self:StartBeforeSkill() 
 	end
 end
 
-function CatchMeCharacter:UpdateSkillState(delta)
-	if not self.m_SkillFsm then
+function CatchMeCharacter:UpdateSkillState()
+	if self.m_SkillState == ESkillState.Idle then
 		if self.m_TargetActor and self.m_CurrentSkillInfo.HasTarget then
 			self:TryActTarget()
 		end
-	else
-		self.m_SkillFsm:Tick(delta)
 	end
 end
 
@@ -118,17 +196,13 @@ function CatchMeCharacter:TapActor(Actor)
 	if isEnemy then
 		if self.m_CurrentSkillInfo.HasTarget then
 			self.m_TargetActor = Actor
-			self:UpdateSkillState(0)
+			self:TryActTarget()
 		end
 	end
 end
 
 function CatchMeCharacter:CanRun()
-	if self.m_SkillFsm and not self.m_SkillFsm:CanRun() then
-		return false
-	else
-		return true
-	end
+	return self.m_SkillState == ESkillState.Idle or self.m_SkillState == ESkillState.After
 end
 
 function CatchMeCharacter:TapFloor(Pos)

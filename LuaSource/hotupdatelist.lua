@@ -5,6 +5,9 @@ local FileNameList = {
 	"animinstance",
 	"catchmecharacter",
 	"cmspectatorpawn",
+	"baseskillfsm",
+	"skillfsm",
+	"cmcharacterbase",
 }
 return FileNameList
 
