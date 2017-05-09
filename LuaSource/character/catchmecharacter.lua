@@ -92,6 +92,17 @@ function CatchMeCharacter:UpdateSkillState(delta)
 	end
 end
 
+function CatchMeCharacter:M_PlaySkillMontage_Imp(SkillId)		
+ 	local cfg = Cfg("skillbaseinfo")[SkillId]		
+ 	local MontagePath = cfg.MontagePath		
+ 	local SpeedFactor = cfg.SpeedFactor		
+ 	local Anim = self:GetMontage(MontagePath)		
+ 	local AnimTime = self.Mesh:GetAnimInstance():Montage_Play(Anim, SpeedFactor)		
+ 	if self:IsAuth() and self.m_SkillFsm then
+ 		self.m_SkillFsm:SetAnimTime(AnimTime/SpeedFactor)
+ 	end		
+ end
+
 function CatchMeCharacter:TryActTarget()
 	local function IsClose()
 		local FaceRotationVector = self.m_TargetActor:K2_GetActorLocation() - self:K2_GetActorLocation() 
