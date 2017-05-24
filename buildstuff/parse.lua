@@ -20,29 +20,47 @@ local m = l.match
 local field = '"' * cs(((p(1) - '"') +p'""' / '"')^0) * '"' + cs(p("TRUE") / "true"+ p("FALSE") / "false") + c((1 - s',\n"')^0)
 local record = field * (',' * field)^0 
 local p_header =  c((p(1)-p('('))^0)
+local p_headerinherit = c( (p(1)-':')^0) * p(":") * c(p(1)^0) 
 local function csv2lua(filename, csvpath, luafolder)
 	io.input(csvpath)
 	local isHeader = true
 	local Headers = {}
+	local Inherit = {}
 	local Code = [=[local ]=]..filename.." = {\n"
+	local ItemCode =""
 	for line in io.lines() do
 		local tokens = m(ct(record), line)
 		if isHeader then
 			isHeader = false
 			for k, v in ipairs(tokens) do
-				Headers[#Headers+1] = m(c(p_header), v)
+				local Header = m(c(p_header), v)
+				local TrueHeader, InheritCfg = m(p_headerinherit, v)
+				if TrueHeader then
+					Headers[#Headers+1] = TrueHeader
+					Inherit[#Headers] = InheritCfg
+				else
+					Headers[#Headers+1] = Header
+				end
 			end
 		else
-			Code = Code.."{"
+			ItemCode = ItemCode.."{"
 			for k, v in ipairs(tokens) do
-				Code = Code..Headers[k].."="..v.."," 
+				if Inherit[k] then
+					ItemCode = ItemCode..Headers[k].."="..Inherit[k].."["..v.."]," 
+				else
+					ItemCode = ItemCode..Headers[k].."="..v.."," 
+				end
 			end
-			Code = Code.."}\n"
+			ItemCode = ItemCode.."},\n"
 		end
 	end
 	io.input():close()
-	Code = Code.."}\nreturn "..filename
-	WriteFile("./"..filename..".lua", Code)
+	local InheritCode = ""
+	for k,v in pairs(Inherit) do
+		InheritCode = InheritCode.."local "..v.." = Cfg(\""..v.."\")\n"
+	end
+	Code = InheritCode..Code..ItemCode.."}\nreturn "..filename
+	WriteFile(luafolder..filename..".lua", Code)
   -- return m(ct(record), s)
 end
 
@@ -88,7 +106,7 @@ local function Csv(rootpath)
             table.insert(systempaths, {FileName = FileName, Path = line})
     	end
     end
-    local LuaconfigPath = "../luasource/config"
+    local LuaconfigPath = "../luasource/config/"
     for k, v in ipairs(systempaths) do
 		csv2lua(v.FileName, v.Path, LuaconfigPath)
     end
@@ -142,6 +160,7 @@ end
 local function Run()
 	Csv("../gameconfig")
 	sbcompletions("../")
+	A_("end")
 end
 
 Run()
