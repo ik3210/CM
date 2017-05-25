@@ -31,6 +31,9 @@ public:
 
 	UFUNCTION(reliable, server, WithValidation)
 	void S_TapFloor(FVector Pos);
+
+	UFUNCTION(reliable, server, WithValidation)
+	void S_RemoveFoliage(int32 Index);
 };
 
 

@@ -3,7 +3,7 @@
 #include "gameplay/gamemode/cmgamemodebase.h"
 #include "CatchMeGameMode.generated.h"
 
-UCLASS(minimalapi)
+UCLASS(meta = (Lua = 1))
 class ACatchMeGameMode : public ACMGameModeBase
 {
 	GENERATED_BODY()

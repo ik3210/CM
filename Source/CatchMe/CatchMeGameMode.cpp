@@ -2,8 +2,6 @@
 
 #include "CatchMe.h"
 #include "CatchMeGameMode.h"
-#include "CatchMePlayerController.h"
-#include "CatchMeCharacter.h"
 #include "TableUtil.h"
 
 ACatchMeGameMode::ACatchMeGameMode()

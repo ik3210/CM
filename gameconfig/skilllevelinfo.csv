@@ -1,2 +1,2 @@
-id(0),CoolTime(0),CostHP(0),CostMP(0),AttackPower(0),AttackPowerFactor(0)
-1001,0,0,0,0,1
+id(0),CoolTime(0),CostHP(0),CostMP(0),AttackPower(0),AttackPowerFactor(0),AttackFrame()
+1001,0,0,0,0,1,"{0.2,0.4,0.8}"

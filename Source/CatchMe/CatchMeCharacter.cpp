@@ -6,6 +6,7 @@
 #include "Runtime/Engine/Classes/Components/DecalComponent.h"
 #include "Kismet/HeadMountedDisplayFunctionLibrary.h"
 #include "TableUtil.h"
+#include "luautils.h"
 
 ACatchMeCharacter::ACatchMeCharacter()
 {

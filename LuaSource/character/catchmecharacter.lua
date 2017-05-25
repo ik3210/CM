@@ -71,24 +71,36 @@ function CatchMeCharacter:BeginPlay()
 	self:Super().BeginPlay(self)
 end
 
+function CatchMeCharacter:CheckVisible()
+	if not self:IsAuth() then
+		local Controller = UGameplayStatics.GetPlayerController(self, 0)
+		if Controller then
+			local  visible = Controller:Visible(self)
+			self:SetActorHiddenInGame(not visible)
+			self.m_UI_HP:SetVisibility(visible and ESlateVisibility.Visible or ESlateVisibility.Hidden)
+			self.m_Visible = visible
+		end
+	end
+end
+
 function CatchMeCharacter:Tick(delta)
 	self:UpdateSkillState(delta)
+	self:CheckVisible()
 end
 
 function CatchMeCharacter:ActTargetSkill()
-	if self.m_TargetActor then
+	if self.m_TargetActor and not self.m_SkillFsm then
 		A_("AT ", self.m_TargetActor:GetName())
 		self:SkillFsm(self.m_CurrentSkillInfo.Fsm)
 	end
 end
 
 function CatchMeCharacter:UpdateSkillState(delta)
-	if not self.m_SkillFsm then
-		if self.m_TargetActor and self.m_CurrentSkillInfo.HasTarget then
-			self:TryActTarget()
-		end
-	else
+	if self.m_SkillFsm then
 		self.m_SkillFsm:Tick(delta)
+	end
+	if self.m_TargetActor and self.m_CurrentSkillInfo.HasTarget then
+		self:TryActTarget()
 	end
 end
 
@@ -146,7 +158,10 @@ function CatchMeCharacter:TapFloor(Pos)
 	if self.m_CurrentSkillInfo.MoveToFloor then
 		self.m_TargetActor = nil
 		if self:CanRun() then
-			self:GetController():MoveToLocation(Pos)
+			if self.m_SkillFsm then
+				self.m_SkillFsm:Release()
+			end
+			self:GetController():MoveToLocation(Pos, -1, true, true, true)
 		end
 	end
 end

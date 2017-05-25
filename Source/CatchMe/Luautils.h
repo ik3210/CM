@@ -16,14 +16,14 @@ struct FReplifetimeCond {
 	TEnumAsByte<ELifetimeCondition> Cond;
 };
 
-UCLASS(minimalapi)
+UCLASS(meta=(lua=1))
 class ULuautils : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
 	
 public:
 	UFUNCTION()
-	static UWorld* GetWorld(AActor *obj);
+	static UWorld* GetWorld1(AActor *obj);
 
 	UFUNCTION()
 	static void SetupAttachment(USceneComponent* Child, USceneComponent* InParent, FName InSocketName = NAME_None);
@@ -51,4 +51,7 @@ public:
 
 	UFUNCTION()
 	static FString GetName(UObject* p);
+
+	UFUNCTION()
+		static void UpdateNav(UActorComponent *Component);
 };

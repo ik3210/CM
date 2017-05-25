@@ -1,12 +1,11 @@
 #pragma once
 #include "lua_tinker.h"
-#include "allheader.inl"
+// #include "allheader.inl"
 #include "Kismet/BlueprintFunctionLibrary.h"
-#include "Luautils.h"
 #include "traitweakclass.h"
 #include "traitstructclass.h"
 #include "TableUtil.generated.h"
-
+ 
 #define LuaCtor(classname, ...) UTableUtil::call("Ctor", classname, this, ##__VA_ARGS__);
 #define LuaCall(functionname, ptr, ...) UTableUtil::call("Call", functionname, ptr, __VA_ARGS__);
 #define LuaCallr(ret, functionname, ptr,...) UTableUtil::callr<ret>("Call", functionname, ptr, __VA_ARGS__);

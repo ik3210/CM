@@ -5,8 +5,8 @@
 #include "AI/Navigation/NavigationSystem.h"
 #include "Runtime/Engine/Classes/Components/DecalComponent.h"
 #include "Kismet/HeadMountedDisplayFunctionLibrary.h"
-#include "CatchMeCharacter.h"
 #include "TableUtil.h"
+#include "luautils.h"
 
 ACatchMePlayerController::ACatchMePlayerController()
 {
@@ -33,6 +33,17 @@ void ACatchMePlayerController::GetLifetimeReplicatedProps(TArray< FLifetimePrope
 		}
 	}
 }
+
+void ACatchMePlayerController::S_RemoveFoliage_Implementation(int32 Index)
+{
+	LuaCall("S_RemoveFoliage_Imp", this, Index);
+}
+
+bool ACatchMePlayerController::S_RemoveFoliage_Validate(int32 Index)
+{
+	return true;
+}
+
 
 void ACatchMePlayerController::S_TapActor_Implementation(AActor* Target)
 {

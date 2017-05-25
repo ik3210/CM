@@ -1,5 +1,6 @@
 function Init(IsMannual)
     package.path = package.path .. ";".._luadir.."/?.lua"
+    package.cpath = package.cpath .. ";".._luadir.."/?.dll"
     require "frame.initrequire"
     local function ShowMem()
         collectgarbage("collect")
@@ -9,7 +10,7 @@ function Init(IsMannual)
     InitLuahotupdate()
     TimerMgr:Get():On(ShowMem):Time(2)
     G_IsMannul = IsMannual
-    if not IsMannual then
+    if IsMannual then
         -- require "util.sbcompletions".run()
     end
 end

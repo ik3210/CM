@@ -1,15 +1,14 @@
 local m = {}
-
+local WorkingDir
 local function GetWorkingDir()
-	local HU = {}
-	if HU.WorkingDir == nil then
+	if WorkingDir == nil then
 	    local p = io.popen("echo %cd%")
 	    if p then
-	        HU.WorkingDir = p:read("*l").."\\"
+	        WorkingDir = p:read("*l").."\\"
 	        p:close()
 	    end
 	end
-	return HU.WorkingDir
+	return WorkingDir
 end
 
 local function Normalize(path)

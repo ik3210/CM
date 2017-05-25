@@ -6,9 +6,7 @@
 
 USTRUCT(meta = (Lua=1))
 struct FCharacterInfo {
-
 	GENERATED_BODY()
-
 	UPROPERTY()
 	int32 MaxHp;
 
@@ -27,7 +25,6 @@ struct FCharacterInfo {
 	UPROPERTY()
 	int32 MoveSpeed;
 };
-
 USTRUCT(meta = (lua=1))
 struct FSkillInfo {
 
@@ -50,6 +47,10 @@ class ACatchMeCharacter : public ACMCharacterBase
 
 public:
 	ACatchMeCharacter();
+
+	UPROPERTY(EditAnywhere)
+		UTexture2D *TestTexture;
+
 
 	UPROPERTY(replicated)
 	FCharacterInfo BaseInfo;

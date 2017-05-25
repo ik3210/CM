@@ -6,6 +6,7 @@ function SkillFsm:Ctor(Owner, SkillInfo, SkillLevel, Target)
 	self.m_BaseInfo = SkillInfo
 	self.m_LevelInfo = Cfg("skilllevelinfo")[SkillInfo.id*1000+SkillLevel]
 	self.m_Target = Target
+	self.m_Frame = 1
 end
 
 function SkillFsm:Enter(StateName)
@@ -43,8 +44,14 @@ function SkillFsm:Act_P()
 end
 
 function SkillFsm:Act_T()
-	if self.m_EndTime and self.m_Time >= self.m_EndTime then
-		self:Enter("After")
+	if self.m_EndTime then
+		local Frame = self.m_LevelInfo.AttackFrame[self.m_Frame] 
+		if Frame and self.m_Time/self.m_EndTime >= Frame then
+			self.m_Target:OnDamage(self.m_Damage)			
+			self.m_Frame = self.m_Frame + 1
+		elseif self.m_Time >= self.m_EndTime then
+			self:Enter("After")
+		end
 	end
 end
 
@@ -54,7 +61,6 @@ function SkillFsm:SetAnimTime(Time)
 end
 
 function SkillFsm:After_P()
-	self.m_Target:OnDamage(self.m_Damage)
 	self.m_Time = 0
 end
 

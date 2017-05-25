@@ -3,8 +3,10 @@
 #include "TableUtil.h"
 #include "DelegateLuaProxy.h"
 #include "UObject/UObjectThreadContext.h"
-#include "GeneratedScriptLibraries.inl"
-
+#include "luaload.h"
+#include "lualoadgame.h"
+// #include "GeneratedScriptLibraries.inl"
+#include "allenum.script.h"
 DEFINE_LOG_CATEGORY(LuaLog);
 
 lua_State* UTableUtil::L = nullptr;
@@ -152,7 +154,8 @@ void UTableUtil::init(bool IsManual)
 		lua_setfield(L, LUA_GLOBALSINDEX, "_gamedir");
 
 		//register all function
-		LuaRegisterExportedClasses(L);
+		ULuaLoad::LoadAll(L);
+		ULuaLoadGame::LoadAll(L);
 		lua_pushboolean(L, IsManual);
 		executeFunc("Init", 0, 1);
 #ifdef LuaDebug

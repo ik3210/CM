@@ -8,7 +8,7 @@
 /**
  * 
  */
-UCLASS()
+UCLASS(meta = (Lua = 1))
 class CATCHME_API ACMGameModeBase : public AGameMode
 {
 	GENERATED_BODY()

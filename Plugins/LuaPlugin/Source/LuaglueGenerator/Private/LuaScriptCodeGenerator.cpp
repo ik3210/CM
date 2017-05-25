@@ -685,6 +685,10 @@ FString FLuaScriptCodeGenerator::FuncCode(FString  ClassNameCPP, FString classna
 	}
 	else
 	{
+		if (IsGameClass(Class))
+		{
+			GameScriptHeaders.AddUnique(Class2ScriptName[FuncSuper]);
+		}
 		FunctionBody += FString::Printf(TEXT("\treturn %s_%s(L);\r\n"), *GetClassNameCPP(FuncSuper), *Function->GetName());
 	}
 	FunctionBody += TEXT("}\r\n\r\n");
@@ -933,7 +937,7 @@ FString FLuaScriptCodeGenerator::GetPropertySetCastType(UProperty* Property)
 		return FString("");
 	}
 }
-FString FLuaScriptCodeGenerator::GetterCode(FString ClassNameCPP, FString classname, FString FuncName, UProperty* Property, UClass* PropertySuper)
+FString FLuaScriptCodeGenerator::GetterCode(FString ClassNameCPP, FString classname, FString FuncName, UProperty* Property, UClass* Class, UClass* PropertySuper)
 {
 	FString GeneratedGlue = GenerateWrapperFunctionDeclaration(ClassNameCPP, classname, FuncName);
 	GeneratedGlue += TEXT("\r\n{\r\n");
@@ -1021,6 +1025,10 @@ FString FLuaScriptCodeGenerator::GetterCode(FString ClassNameCPP, FString classn
 	}
 	else
 	{
+		if (IsGameClass(Class))
+		{
+			GameScriptHeaders.AddUnique(Class2ScriptName[PropertySuper]);
+		}
 		FunctionBody += FString::Printf(TEXT("\treturn %s_%s(L);\r\n"),  *GetClassNameCPP(PropertySuper), *FuncName);
 	}
 	GeneratedGlue += FunctionBody;
@@ -1028,7 +1036,7 @@ FString FLuaScriptCodeGenerator::GetterCode(FString ClassNameCPP, FString classn
 	return GeneratedGlue;
 }
 
-FString FLuaScriptCodeGenerator::SetterCode(FString ClassNameCPP, FString classname, FString FuncName, UProperty* Property, UClass* PropertySuper)
+FString FLuaScriptCodeGenerator::SetterCode(FString ClassNameCPP, FString classname, FString FuncName, UProperty* Property, UClass* Class, UClass* PropertySuper)
 {
 	FString GeneratedGlue = GenerateWrapperFunctionDeclaration(ClassNameCPP, classname, FuncName);
 	GeneratedGlue += TEXT("\r\n{\r\n");
@@ -1144,6 +1152,10 @@ FString FLuaScriptCodeGenerator::SetterCode(FString ClassNameCPP, FString classn
 	}
 	else
 	{
+		if (IsGameClass(Class))
+		{
+			GameScriptHeaders.AddUnique(Class2ScriptName[PropertySuper]);
+		}
 		FunctionBody = FString::Printf(TEXT("\treturn %s_%s(L);\r\n"), *GetClassNameCPP(PropertySuper), *FuncName);
 	}
 	GeneratedGlue += FunctionBody;
@@ -1167,7 +1179,7 @@ FString FLuaScriptCodeGenerator::ExportProperty(const FString& ClassNameCPP, UCl
 
 	// Getter	
 	FString GetterName = FString::Printf(TEXT("Get_%s"), *PropertyName);
-	GeneratedGlue += GetterCode(ClassNameCPP, Class->GetName(), GetterName, Property, PropertySuper);
+	GeneratedGlue += GetterCode(ClassNameCPP, Class->GetName(), GetterName, Property, Class, PropertySuper);
 
 	// Store the name of this getter as well as the name of the wrapper function
 	FPropertyAccessor Getter;
@@ -1178,7 +1190,7 @@ FString FLuaScriptCodeGenerator::ExportProperty(const FString& ClassNameCPP, UCl
 
 	//Setter
 	FString SetterName = FString::Printf(TEXT("Set_%s"), *PropertyName);
-	GeneratedGlue += SetterCode(ClassNameCPP, Class->GetName(), SetterName, Property, PropertySuper);
+	GeneratedGlue += SetterCode(ClassNameCPP, Class->GetName(), SetterName, Property, Class, PropertySuper);
 	// Store the name of this setter as well as the name of the wrapper function
 	FPropertyAccessor Setter;
 	Setter.AccessorName = SetterName;
@@ -1343,7 +1355,7 @@ void FLuaScriptCodeGenerator::ExportStruct()
 		ExportTrait.AddUnique(namecpp);
 		StructNames.Add(namecpp);
 		const FString ClassGlueFilename = GeneratedCodePath / (name + TEXT(".script.h"));
-		AllScriptHeaders.Add(ClassGlueFilename);
+		GameScriptHeaders.Add(ClassGlueFilename);
 		FString GeneratedGlue(TEXT("#pragma once\r\n\r\n"));
 		int32 PropertyIndex = 0;
 		TArray<FString> allPropertyName;
@@ -1404,7 +1416,7 @@ void FLuaScriptCodeGenerator::ExportStruct()
 	}
 	for (auto &namecpp:ExportTrait)
 	{
-		TraitGlue += FString::Printf(TEXT("template<>\r\nclass traitstructclass<%s>{\r\npublic:\r\n"), *namecpp);
+		TraitGlue += FString::Printf(TEXT("struct %s;\r\ntemplate<>\r\nclass traitstructclass<%s>{\r\npublic:\r\n"), *namecpp, *namecpp);
 		TraitGlue += FString::Printf(TEXT("inline static const char * name() { return \"%s\"; }\r\n};\r\n\r\n"), *namecpp);
 	}
 	SaveHeaderIfChanged(TraitGlueFilename, TraitGlue);
@@ -1444,12 +1456,11 @@ void FLuaScriptCodeGenerator::ExportClass(UClass* Class, const FString& SourceHe
 	UE_LOG(LogScriptGenerator, Log, TEXT("Exporting class %s"), *Class->GetName());
 
 	ExportedClasses.Add(Class->GetFName());
-	LuaExportedClasses.Add(Class);
-	AllSourceClassHeaders.AddUnique(SourceHeaderFilename);
+	const FString ClassGlueFilename = GetScriptHeaderForClass(Class);
+	Class2ScriptName.Add(Class,ClassGlueFilename);
+	
 	ExportingClassSourcefile = SourceHeaderFilename;
 
-	const FString ClassGlueFilename = GetScriptHeaderForClass(Class);
-	AllScriptHeaders.Add(ClassGlueFilename);
 
 	const FString ClassNameCPP = GetClassNameCPP(Class);
 	auto x = ClassNameCPP == "IFontProviderInterface";
@@ -1478,6 +1489,18 @@ void FLuaScriptCodeGenerator::ExportClass(UClass* Class, const FString& SourceHe
 		}
 	}
 
+	if (!IsGameClass(Class))
+	{
+		AllSourceClassHeaders.AddUnique(SourceHeaderFilename);
+		AllScriptHeaders.Add(ClassGlueFilename);
+		LuaExportedClasses.Add(Class);
+	}
+	else
+	{
+		GameExportedClasses.Add(Class);
+		GameSourceClassHeaders.AddUnique(SourceHeaderFilename);
+		GameScriptHeaders.Add(ClassGlueFilename);
+	}
 	GeneratedGlue += ExportAdditionalClassGlue(ClassNameCPP, Class);
 
 	SaveHeaderIfChanged(ClassGlueFilename, GeneratedGlue);
@@ -1539,7 +1562,9 @@ void FLuaScriptCodeGenerator::GenerateDelegateClass()
 	const FString ClassGlueFilename = IncludeBase / TEXT("DelegateLuaProxy.h");
 	FString GeneratedGlue = TEXT("#pragma once\r\n");
 	// GeneratedGlue += FString::Printf(TEXT("#include \"%s.h\"\r\n"), *GameModuleName);
-	GeneratedGlue += TEXT("#include \"TableUtil.h\"\r\n");
+	GeneratedGlue += TEXT("#include \"allheader.inl\"\r\n");
+	GeneratedGlue += TEXT("#include \"extraheader.h\"\r\n");
+	GeneratedGlue += TEXT("#include \"tableutil.h\"\r\n");
 	GeneratedGlue += TEXT("#include \"DelegateLuaProxy.generated.h\"\r\n");
 	for (auto &info:delegates)
 	{
@@ -1572,9 +1597,10 @@ void FLuaScriptCodeGenerator::GenerateDelegateClass()
 		GeneratedGlue += FString::Printf(TEXT("class %s : public UObject{\r\n\tGENERATED_BODY()\r\npublic:\r\n"), *className);
 		GeneratedGlue += FString::Printf(TEXT("\tTSet<int> LuaCallBacks;\r\n"));
 		GeneratedGlue += FString::Printf(TEXT("\t%s() {};\r\n"), *className);
-		GeneratedGlue += FString::Printf(TEXT("\tusing delegatetype = decltype(((%s*)0)->%s);\r\n"), *info.ClassNameCPP, *info.DelegateName);
+		// 		GeneratedGlue += FString::Printf(TEXT("\tusing delegatetype = decltype(((%s*)0)->%s);\r\n"), *info.ClassNameCPP, *info.DelegateName);
 
-		GeneratedGlue += FString::Printf(TEXT("\tvoid Init(delegatetype& theDelegate){\r\n"));
+		GeneratedGlue += FString::Printf(TEXT("\ttemplate<typename T>\n"), *info.ClassNameCPP, *info.DelegateName);
+		GeneratedGlue += FString::Printf(TEXT("\tvoid Init(T& theDelegate){\r\n"));
 		GeneratedGlue += FString::Printf(TEXT("\t\tUTableUtil::addgcref((UObject*)this);\r\n"));
 		GeneratedGlue += FString::Printf(TEXT("\t\ttheDelegate.AddDynamic(this, &%s::CallBack);\r\n"), *className);
 		GeneratedGlue += TEXT("\t}\r\n\r\n");
@@ -1629,14 +1655,38 @@ void FLuaScriptCodeGenerator::FinishExport()
 	RenameTempFiles();
 }
 
+
+bool FLuaScriptCodeGenerator::IsGameClass(UClass * Class)
+{
+	if (Class == nullptr)
+		return false;
+	FString luameta = Class->GetMetaData(TEXT("Lua"));
+	return !luameta.IsEmpty();
+}
+
 void FLuaScriptCodeGenerator::GlueAllGeneratedFiles()
 {
 	// Generate inl library file
-	FString LibGlueFilename = GeneratedCodePath / TEXT("GeneratedScriptLibraries.inl");
+	FString LibGlueFilename = IncludeBase / TEXT("Luaload.cpp");
+	FString GameLibGlueFilename = IncludeBase / TEXT("Lualoadgame.cpp");
+// 	FString LibGlueFilename = IncludeBase / TEXT("GeneratedScriptLibraries.cpp");
 	FString LibGlue;
 	FString AllHeaderFilename = GeneratedCodePath / TEXT("allheader.inl");
+	FString GameHeaderFilename = GeneratedCodePath / TEXT("gameheader.inl");
+	FString GameHeaderGlue;
+	FString GameLoadCpp;
 	FString HeaderGlue;
+	LibGlue += FString::Printf(TEXT("#include \"%s.h\"\r\n"), *GameModuleName);
+	LibGlue += TEXT("#include \"luaload.h\"\r\n");
+	LibGlue += TEXT("#include \"tableutil.h\"\r\n");
+	LibGlue += TEXT("#include \"DelegateLuaProxy.h\"\r\n");
+	LibGlue += TEXT("#include \"allheader.inl\"\r\n");
 
+	GameLoadCpp += FString::Printf(TEXT("#include \"%s.h\"\r\n"), *GameModuleName);
+	GameLoadCpp += TEXT("#include \"lualoadgame.h\"\r\n");
+	GameLoadCpp += TEXT("#include \"tableutil.h\"\r\n");
+	GameLoadCpp += TEXT("#include \"gameheader.inl\"\r\n");
+	GameLoadCpp += TEXT("#include \"allweakclass.script.h\"\r\n");
 	// Include all source header files
 	for (auto& HeaderFilename : AllSourceClassHeaders)
 	{
@@ -1648,8 +1698,6 @@ void FLuaScriptCodeGenerator::GlueAllGeneratedFiles()
 		}
 	}
 	HeaderGlue += FString::Printf(TEXT("#include \"%s.h\"\r\n"), *GameModuleName);
-
-
 	// LibGlue += TEXT("#include \"allheader.inl\"\r\n");
 	// Include all script glue headers
 	for (auto& HeaderFilename : AllScriptHeaders)
@@ -1657,17 +1705,39 @@ void FLuaScriptCodeGenerator::GlueAllGeneratedFiles()
 		// Re-base to make sure we're including the right files on a remote machine
 		FString NewFilename(FPaths::GetCleanFilename(HeaderFilename));
 		LibGlue += FString::Printf(TEXT("#include \"%s\"\r\n"), *NewFilename);
+		if (GameScriptHeaders.Contains(HeaderFilename))
+		{
+			GameLoadCpp += FString::Printf(TEXT("#include \"%s\"\r\n"), *NewFilename);
+			GameScriptHeaders.Remove(HeaderFilename);
+		}
+// 		GameLoadCpp += FString::Printf(TEXT("#include \"%s\"\r\n"), *NewFilename);
 	}
 
-	LibGlue += TEXT("\r\nvoid LuaRegisterExportedClasses(lua_State* L)\r\n{\r\n");
+	for (auto& HeaderFilename : GameSourceClassHeaders)
+	{
+		FString NewFilename(RebaseToBuildPath(HeaderFilename));
+		GameHeaderGlue += FString::Printf(TEXT("#include \"%s\"\r\n"), *NewFilename);
+	}
+
+	for (auto& HeaderFilename : AllSourceClassHeaders)
+	{
+		FString NewFilename(RebaseToBuildPath(HeaderFilename));
+		GameHeaderGlue += FString::Printf(TEXT("#include \"%s\"\r\n"), *NewFilename);
+	}
+
+	for (auto& HeaderFilename : GameScriptHeaders)
+	{
+		// Re-base to make sure we're including the right files on a remote machine
+		FString NewFilename(FPaths::GetCleanFilename(HeaderFilename));
+		GameLoadCpp += FString::Printf(TEXT("#include \"%s\"\r\n"), *NewFilename);
+	}
+
+	LibGlue += TEXT("\r\nvoid ULuaLoad::LoadAll(lua_State* L)\r\n{\r\n");
 	for (auto Class : LuaExportedClasses)
 	{
 		LibGlue += FString::Printf(TEXT("\tUTableUtil::loadlib(%s_Lib, \"%s\");\r\n"), *Class->GetName(), *GetClassNameCPP(Class));
 	}
-	for (auto Name : StructNames)
-	{
-		LibGlue += FString::Printf(TEXT("\tUTableUtil::loadlib(%s_Lib, \"%s\");\r\n"), *Name, *Name);
-	}
+	
 	for (auto Name : EnumtNames)
 	{
 		LibGlue += FString::Printf(TEXT("\tUTableUtil::loadEnum(%s_Enum, \"%s\");\r\n"), *Name, *Name);
@@ -1678,6 +1748,19 @@ void FLuaScriptCodeGenerator::GlueAllGeneratedFiles()
 	}
 	LibGlue += TEXT("}\r\n\r\n");
 
+	GameLoadCpp += TEXT("\r\nvoid ULuaLoadGame::LoadAll(lua_State* L)\r\n{\r\n");
+	for (auto Class : GameExportedClasses)
+	{
+		GameLoadCpp += FString::Printf(TEXT("\tUTableUtil::loadlib(%s_Lib, \"%s\");\r\n"), *Class->GetName(), *GetClassNameCPP(Class));
+	}
+	for (auto Name : StructNames)
+	{
+		GameLoadCpp += FString::Printf(TEXT("\tUTableUtil::loadlib(%s_Lib, \"%s\");\r\n"), *Name, *Name);
+	}
+	GameLoadCpp += TEXT("}\r\n\r\n");
+
 	SaveHeaderIfChanged(LibGlueFilename, LibGlue);
 	SaveHeaderIfChanged(AllHeaderFilename, HeaderGlue);
+	SaveHeaderIfChanged(GameHeaderFilename, GameHeaderGlue);
+	SaveHeaderIfChanged(GameLibGlueFilename, GameLoadCpp);
 }

@@ -3,7 +3,7 @@
 #include "TableUtil.h"
 #include "Luautils.h"
 
-UWorld* ULuautils::GetWorld(AActor* obj)
+UWorld* ULuautils::GetWorld1(AActor* obj)
 {
 	return obj->GetWorld();
 }
@@ -61,4 +61,9 @@ FString ULuautils::GetName(UObject* p)
 {
 	check(p != nullptr)
 	return p->GetName();
+}
+
+void ULuautils::UpdateNav(UActorComponent *Component)
+{
+	UNavigationSystem::UpdateComponentInNavOctree(*Component);
 }
