@@ -2,18 +2,24 @@
 
 #include "CatchMe.h"
 #include "CMFogMgr.h"
-
-
-const int32 Size = 128;
+#include "TableUtil.h"
+#include "catchmeplayercontroller.h"
+UCMFogMgr::UCMFogMgr()
+{
+	LuaCtor("gameplay.cmfogmgr", this);
+}
 
 void UCMFogMgr::Init(FColor Color)
 {
-	int32 ArrSize = Size*Size;
+	int32 ArrSize = MapSize*MapSize;
 	Data.Init(Color, ArrSize);
 	FogColor = Color;
-	Tx_Fog = UTexture2D::CreateTransient(Size, Size);
-	textureRegions = new FUpdateTextureRegion2D(0, 0, 0, 0, Size, Size);
+	Tx_Fog = UTexture2D::CreateTransient(MapSize, MapSize);
+	Tx_Last_Fog = UTexture2D::CreateTransient(MapSize, MapSize);
+	textureRegions = new FUpdateTextureRegion2D(0, 0, 0, 0, MapSize, MapSize);
+	LasttextureRegions = new FUpdateTextureRegion2D(0, 0, 0, 0, MapSize, MapSize);
 	UpdateTexture();
+	UpdateLastTexture();
 }
 
 void UCMFogMgr::UpdateTextureRegions(UTexture2D* Texture, int32 MipIndex, uint32 NumRegions, FUpdateTextureRegion2D* Regions, uint32 SrcPitch, uint32 SrcBpp, uint8* SrcData, bool bFreeData)
@@ -72,27 +78,50 @@ void UCMFogMgr::UpdateTextureRegions(UTexture2D* Texture, int32 MipIndex, uint32
 	}
 }
 
+bool UCMFogMgr::CanSee(FVector& Pos, int32 Targetx, int32 Targety)
+{
+// 	return LuaCallr(bool,"TestXY",this, Pos, Targetx, Targety);
+// 	return true;
+	FVector TargetPos(Targety, Targetx, Pos.Z);
+	FHitResult Hit;
+	TArray<AActor*> Ignore;
+	Ignore.Add(Cast<ACatchMePlayerController>(Controller)->PlayCharacter);
+	if (UKismetSystemLibrary::LineTraceSingle_NEW(Controller, Pos, TargetPos, ETraceTypeQuery::TraceTypeQuery1, true, Ignore, EDrawDebugTrace::None, Hit, true))
+		return false;
+	else
+		return true;
+}
+
 void UCMFogMgr::UpdateTexture()
 {
 	Tx_Fog->UpdateResource();
-	UpdateTextureRegions(Tx_Fog, (int32)0, (uint32)1, textureRegions, (uint32)(4 * Size), (uint32)4, (uint8*)Data.GetData(), false);
+	UpdateTextureRegions(Tx_Fog, (int32)0, (uint32)1, textureRegions, (uint32)(4 * MapSize), (uint32)4, (uint8*)Data.GetData(), false);
+}
+
+void UCMFogMgr::UpdateLastTexture()
+{
+	Tx_Last_Fog->UpdateResource();
+	UpdateTextureRegions(Tx_Last_Fog, (int32)0, (uint32)1, LasttextureRegions, (uint32)(4 * MapSize), (uint32)4, (uint8*)Data.GetData(), false);
 }
 
 void UCMFogMgr::UpdateFOV(FVector CharacterPos)
 {
-	const int32 len = 10;
-	const int32 Sqrt = len*len;
-	int32 y = CharacterPos.X / 100 + 64;
-	int32 x = CharacterPos.Y / 100 + 64;
+	int32 len = EyeLen;
+	int32 Sqrt = len*len;
+	int32 FogMapFactor = MapSize / LandscapeSize;
+	int32 y = (CharacterPos.X / 100 + LandscapeSize/2)* FogMapFactor;
+	int32 x = (CharacterPos.Y / 100 + LandscapeSize/2)* FogMapFactor;
 
-	int32 ArrSize = Size*Size;
+	int32 ArrSize = MapSize*MapSize;
+	UpdateLastTexture();
 	Data.Init(FogColor, ArrSize);
 
-	for (int32 i = FMath::Max(x - len, 0); i <= FMath::Min(x + len, 127); i++)
-		for (int32 j = FMath::Max(y - len, 0); j <= FMath::Min(y + len, 127); j++)
+	for (int32 i = FMath::Max(x - len, 0); i <= FMath::Min(x + len, MapSize -1); i++)
+		for (int32 j = FMath::Max(y - len, 0); j <= FMath::Min(y + len, MapSize - 1); j++)
 		{
 			if ( FMath::Pow((i-x),2) + FMath::Pow((j - y), 2) <= Sqrt)
-				Data[i * 128 + j] = FColor(0, 0, 0, 0);
+				if (CanSee(CharacterPos, (float(i)/FogMapFactor - LandscapeSize/2)*100, (float(j) / FogMapFactor - LandscapeSize / 2) * 100))
+					Data[i * MapSize + j] = ThroughColor;
 		}
 	UpdateTexture();
 }

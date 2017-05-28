@@ -18,10 +18,6 @@ function testUmg:Ctor(controller)
 	-- A_(MID)
 end
 function testUmg:PlayAnim()
-	local l = require "lpeg"
-	A_(l)
-	local a = l.P("xx")
-	l.Ct(a)
 	-- local AnimIns = self.controller:GetAnimIns()
 	-- local anim = UAnimMontage.LoadObject(self, "/Game/Mannequin/Animations/NewAnimMontage")
 	-- AnimIns:Montage_Play(anim, 0.5)

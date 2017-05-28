@@ -347,6 +347,8 @@ void* tousertype(lua_State* L, const char* classname, int i)
 		return nullptr;
 	else if (lua_istable(L, i))
 	{
+		if (i < 0)
+			i = lua_gettop(L) + i+1;
 		lua_pushstring(L,  "_cppinstance_");
 		lua_rawget(L, i);
 		if (lua_isnil(L, -1))

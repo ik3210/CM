@@ -10,14 +10,22 @@ class CATCHME_API UCMFogMgr : public UObject
 {
 	GENERATED_BODY()
 public:
+	UCMFogMgr();
 	UPROPERTY()
 		UTexture2D *Tx_Fog;
 
+	UPROPERTY()
+		UTexture2D *Tx_Last_Fog;
+
 	TArray<FColor> Data;
 	FUpdateTextureRegion2D* textureRegions;
+	FUpdateTextureRegion2D* LasttextureRegions;
 	FColor FogColor;
 	UFUNCTION()
 	void Init(FColor Color);
+
+	UPROPERTY()
+	FColor ThroughColor;
 
 	void UpdateTextureRegions(
 		UTexture2D* Texture,
@@ -29,9 +37,24 @@ public:
 		uint8* SrcData,
 		bool bFreeData);
 
+	bool CanSee(FVector& Pos, int32 Targetx, int32 Targety);
+
 	UFUNCTION()
 	void UpdateTexture();
+
+	UFUNCTION()
+	void UpdateLastTexture();
 	
 	UFUNCTION()
 	void UpdateFOV(FVector CharacterPos);
+
+	UPROPERTY()
+	int32 MapSize;
+	UPROPERTY()
+	int32 LandscapeSize;
+	UPROPERTY()
+	int32 EyeLen;
+	UPROPERTY()
+	APlayerController* Controller;
+
 };

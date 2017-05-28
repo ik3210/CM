@@ -27,23 +27,7 @@ end
 
 function CMPlayerController:InitFogMgr()
 	self.m_FogMgr = UCMFogMgr.New(self, "FogMgr")
-	self.m_FogMgr:Init(FColor.New(0,0,0,255))
-	self:Timer(self.UpdateForTexture, self):Time(0.1)
-	local MaterialFather = UMaterial.LoadObject(self, "/Game/Git/mt_fog.mt_fog")
-	self.MID = UKismetMaterialLibrary.CreateDynamicMaterialInstance(self, MaterialFather)
-	self.MID:SetTextureParameterValue("tx_fog", self.m_FogMgr.Tx_Fog)
-	local actors = UGameplayStatics.GetAllActorsWithTag(self, "FogMeshActor", {})
-	for k, v in ipairs(actors) do
-		local MeshActor = AStaticMeshActor.Cast(v)
-		if MeshActor then
-			MeshActor.StaticMeshComponent:SetMaterial(0, self.MID)
-		end
-	end
-end
-
-function CMPlayerController:UpdateForTexture()
-	self.m_FogMgr:UpdateFOV(self.m_Pawn:K2_GetActorLocation())
-	-- self.m_FogMgr:UpdateTexture()
+	self.m_FogMgr:LuaInit(self)
 end
 
 function CMPlayerController:GetFoliageActor()

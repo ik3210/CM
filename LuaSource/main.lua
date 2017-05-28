@@ -6,7 +6,7 @@ function Init(IsMannual)
         collectgarbage("collect")
         -- a_("lua memory: ", collectgarbage("count"))
     end
-    require ("util.csvtolua")(_gamedir.."/gameconfig") 
+    -- require ("util.csvtolua")(_gamedir.."/gameconfig") 
     InitLuahotupdate()
     TimerMgr:Get():On(ShowMem):Time(2)
     G_IsMannul = IsMannual

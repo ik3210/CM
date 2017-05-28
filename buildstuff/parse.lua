@@ -15,12 +15,14 @@ local r = l.R
 local c = l.C
 local ct = l.Ct
 local cs = l.Cs
+local cmt = l.Cmt
 local m = l.match
 
 local field = '"' * cs(((p(1) - '"') +p'""' / '"')^0) * '"' + cs(p("TRUE") / "true"+ p("FALSE") / "false") + c((1 - s',\n"')^0)
 local record = field * (',' * field)^0 
 local p_header =  c((p(1)-p('('))^0)
 local p_headerinherit = c( (p(1)-':')^0) * p(":") * c(p(1)^0) 
+
 local function csv2lua(filename, csvpath, luafolder)
 	io.input(csvpath)
 	local isHeader = true
@@ -43,11 +45,23 @@ local function csv2lua(filename, csvpath, luafolder)
 				end
 			end
 		else
-			ItemCode = ItemCode.."{"
+			local bIsFirstToken = true
 			for k, v in ipairs(tokens) do
 				if Inherit[k] then
-					ItemCode = ItemCode..Headers[k].."="..Inherit[k].."["..v.."]," 
+					local function sub(v)
+						return Inherit[k].."["..v.."]"
+					end
+					local p_num = r("09")^1/sub
+					local p_notnum = 1-r("09")
+					local p_num_list = p_num * (',' + p_num)^0
+					local p_arr_num = p'{' * p_num_list * p'}' 
+					local nums = m(cs(p_arr_num + p_num), v)
+					ItemCode = ItemCode..Headers[k].."="..m(cs(p_arr_num + p_num), v)..","
 				else
+					if bIsFirstToken then
+						bIsFirstToken = false
+						ItemCode = ItemCode.."["..v.."] = {"	
+					end					
 					ItemCode = ItemCode..Headers[k].."="..v.."," 
 				end
 			end
@@ -152,9 +166,7 @@ local function sbcompletions(rootpath)
    		code = code..temp.."\n"
    	end
    	code = code.."]}"
-	local snipfile = io.open("C:/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/completions.sublime-completions", "w")
-	snipfile:write(code)
-	snipfile:close()
+   	WriteFile("C:/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/completions.sublime-completions", code)
 end
 
 local function Run()

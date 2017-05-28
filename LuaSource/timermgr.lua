@@ -44,7 +44,7 @@ function TimerMgr:Tick(delta)
 			h.passtime = h.passtime+delta
 			if h.passtime >= h.interval then
 				h.callback(h.passtime)
-				h.passtime = h.passtime - h.interval
+				h.passtime = 0
 				h.num = h.num + 1
 				if h.totalnum and h.totalnum >= h.num then
 					h:Destroy()
