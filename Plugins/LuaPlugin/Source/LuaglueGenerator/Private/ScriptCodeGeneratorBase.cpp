@@ -1,6 +1,6 @@
 // Copyright 1998-2016 Epic Games, Inc. All Rights Reserved.
-#include "LuaglueGeneratorPrivatePCH.h"
 #include "ScriptCodeGeneratorBase.h"
+#include "LuaglueGeneratorPrivatePCH.h"
 
 FScriptCodeGeneratorBase::FScriptCodeGeneratorBase(const FString& InRootLocalPath, const FString& InRootBuildPath, const FString& InOutputDirectory, const FString& InIncludeBase)
 {

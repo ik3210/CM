@@ -38,6 +38,7 @@ protected:
 	TArray<FString> EnumtNames;
 	/** Functions exported for a class */
 	TMap<UClass*, TArray<FName> > ClassExportedFunctions;
+	TMap<FName, FString> FuncSuperClassName;
 	/** Proprties exported for a class */
 	TMap<UClass*, TArray<FPropertyAccessor> > ClassExportedProperties;
 	TArray<FString> SupportedStruct;
@@ -78,7 +79,7 @@ protected:
 	void GenerateWeakClass();
 	void GenerateDelegateClass();
 	
-	virtual FString GenerateFunctionDispatch(UFunction* Function, const FString &ClassNameCPP, bool bIsStaticFunc = false, bool bIsInterface = false);
+	FString GenerateFunctionDispatch(UFunction* Function, const FString &ClassNameCPP, bool bIsStaticFunc = false, bool bIsInterface = false);
 	FString GenerateFunctionDispatch_private(UFunction* Function, const FString &ClassNameCPP, bool bIsStaticFunc = false);
 	FString InitializeParam(UProperty* Param, int32 ParamIndex, bool isnotpublicproperty = false, FString arrayName = "");
 	void ExportStruct();
